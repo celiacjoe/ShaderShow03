@@ -682,3 +682,18 @@ function hashCode (s) {
     }
     return hash;
 };
+
+function dildo(){
+  if(pointers[0].texcoordX>0.9){
+    navigator.vibrate(200);
+  }
+  if(pointers[0].texcoordX<0.1){
+    navigator.vibrate(200);
+  }
+  if(pointers[0].texcoordY>0.9){
+    navigator.vibrate(200);
+  }
+  if(pointers[0].texcoordY<0.1){
+    navigator.vibrate(200);
+  }
+}
