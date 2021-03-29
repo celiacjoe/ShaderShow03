@@ -473,6 +473,7 @@ function update () {
         initFramebuffers();
 //    updateColors(dt);
     applyInputs();
+    dildo();
   /*  if (!config.PAUSED)
         step(dt);*/
     render(null);
